@@ -1,0 +1,70 @@
+[33mcommit abbcb52beac366c7ba1cdcce1f166628982db093[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m)[m
+Merge: 86035d4 913f8a6
+Author: Yossefnasser <yusef_20230697@fci.helwan.edu.eg>
+Date:   Wed Jul 23 14:16:04 2025 +0300
+
+    Merge branch 'dev' of https://github.com/Yossefnasser/flutter_store_app into dev
+
+[33mcommit 913f8a636a29f0cb1c1446744609399d70531e68[m
+Merge: 6a8c06b 58a4f14
+Author: Yossefnasser <yusef_20230697@fci.helwan.edu.eg>
+Date:   Thu Jul 24 02:09:35 2025 +0300
+
+    Merge pull request #3 from Yossefnasser/setup
+    
+    Merge pull request #2 from Yossefnasser/dev
+
+[33mcommit 58a4f1481d2a4f1c5009eca9040368707b4fcc3c[m[33m ([m[1;31morigin/setup[m[33m)[m
+Merge: bc6b3da 6a8c06b
+Author: Yossefnasser <yusef_20230697@fci.helwan.edu.eg>
+Date:   Thu Jul 24 02:07:50 2025 +0300
+
+    Merge pull request #2 from Yossefnasser/dev
+    
+    Dev
+
+[33mcommit 6a8c06bb2491a562e2fae2510a306409ebe09086[m
+Merge: bc6b3da c001f5e
+Author: Yossefnasser <yusef_20230697@fci.helwan.edu.eg>
+Date:   Wed Jul 23 22:03:48 2025 +0300
+
+    Merge pull request #1 from Yossefnasser/firebase-setup-andriod
+    
+    firebase setup done
+
+[33mcommit 86035d48035c1da30aeab7e1b347f82319126de1[m
+Author: Yossefnasser <yusef_20230697@fci.helwan.edu.eg>
+Date:   Wed Jul 23 14:16:00 2025 +0300
+
+    latest commit
+
+[33mcommit 4a1d62320f9010b414419790ad6546bd507d0147[m
+Merge: 2a60fbd 6a8c06b
+Author: Yossefnasser <yusef_20230697@fci.helwan.edu.eg>
+Date:   Wed Jul 23 14:15:38 2025 +0300
+
+    Merge branch 'dev' of https://github.com/Yossefnasser/flutter_store_app into dev
+
+[33mcommit 2a60fbdb5754bff6ec51cf361cb792035e161f6a[m
+Author: Yossefnasser <yusef_20230697@fci.helwan.edu.eg>
+Date:   Wed Jul 23 14:05:32 2025 +0300
+
+    latest commit
+
+[33mcommit c001f5e4155f45354a31ce2da7b9ba7b7824f753[m[33m ([m[1;31morigin/firebase-setup-andriod[m[33m, [m[1;32mfirebase-setup-andriod[m[33m)[m
+Author: Yossefnasser <yusef_20230697@fci.helwan.edu.eg>
+Date:   Wed Jul 23 10:02:33 2025 +0300
+
+    firebase setup done
+
+[33mcommit bc6b3da7c47d7ea06003003abd1d50d5c74d4a26[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/firebase-ios-setup[m[33m, [m[1;32msetup[m[33m, [m[1;32mmain[m[33m, [m[1;32mfirebase-ios-setup[m[33m)[m
+Author: Yossefnasser <yusef_20230697@fci.helwan.edu.eg>
+Date:   Wed Jul 23 08:50:38 2025 +0300
+
+    first commit
+
+[33mcommit 99069b631d08f11617526d94cb54a2df90451cae[m
+Author: Yossefnasser <yusef_20230697@fci.helwan.edu.eg>
+Date:   Wed Jul 23 08:44:56 2025 +0300
+
+    first commit
