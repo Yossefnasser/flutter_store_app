@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "579283894553",
+    "project_id": "flutter-store-app-ea112",
+    "storage_bucket": "flutter-store-app-ea112.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579283894553:android:0b9ff2aa2197b144e10588",
+        "android_client_info": {
+          "package_name": "com.example.pizza_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0UhoxgObSRiWkGlFIeQ0-zSI3kGNlRW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
