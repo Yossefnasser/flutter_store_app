@@ -42,6 +42,7 @@ flutter:
   assets:
     - .env.dev
     - .env.prod
+    - assets/images/core/
     
 
   # To add custom fonts to your application, add a section like this:
