@@ -16,6 +16,12 @@ dependencies:
 
 
   cupertino_icons: ^1.0.8
+  very_good_analysis: ^8.0.0
+  connectivity_plus: ^6.1.4
+  flutter_dotenv: ^5.2.1
+  flutter_screenutil: ^5.9.3
+  flutter_launcher_icons: ^0.14.4
+  firebase_core: ^3.15.2
 
 dev_dependencies:
   flutter_test:
@@ -33,3 +39,19 @@ flutter:
 
   uses-material-design: true
 
+  assets:
+    - .env.dev
+    - .env.prod
+    
+
+  # To add custom fonts to your application, add a section like this:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #         weight: normal
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #
+  # For details regarding fonts from package dependencies, see
+  # https://flutter.dev/custom-fonts/#from-packages

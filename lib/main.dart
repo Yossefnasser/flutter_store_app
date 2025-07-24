@@ -2,23 +2,20 @@
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:pizza_app/core/app/env.variables.dart';
+import 'package:pizza_app/home.dart';
 
-void main() {
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  Firebase.initializeApp();
-  runApp(const MyApp());
-}
-class MyApp extends StatelessWidget{
-  const MyApp({super.key});
+  await Firebase.initializeApp();
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('naaaaaaaa'),
-        ),
-      ),
-    );
-  }
+  // Initialize environment variables
+  await EnvVariable.instance.init(EnvTypeEnum.dev);
+  await SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]).then((_) {
+    runApp(const MyApp());
+  });
 }
