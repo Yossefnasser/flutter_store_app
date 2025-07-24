@@ -26,9 +26,23 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-
+  build_runner: ^2.4.6
+  build_web_compilers: ^3.2.0
   flutter_lints: ^5.0.0
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/core/logo.png"
+  adaptive_icon_background: "#FF0000" # Replace with your desired color
+  adaptive_icon_foreground: "assets/images/core/logo.png" # Replace with your desired image path
+  # Add your other dependencies here.
+  # For example:
+  # http: ^0.13.3
+  # provider: ^6.0.0
+  # shared_preferences: ^2.0.6
+  
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
