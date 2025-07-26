@@ -17,6 +17,7 @@ class Test1Screeen extends StatelessWidget {
         
         child: Column( 
           mainAxisAlignment: MainAxisAlignment.center,
+          
           children: [ const Text(
           '11111111',
           style: TextStyle(

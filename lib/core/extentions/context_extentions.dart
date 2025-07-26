@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pizza_app/core/language/app_localizations.dart';
 import 'package:pizza_app/core/style/theme/color_extention.dart';
 
 extension ContextExtensions on BuildContext {
@@ -7,6 +8,10 @@ extension ContextExtensions on BuildContext {
     assert(colorExtension != null, 'MyColor extension is not found in ThemeData');
     return colorExtension!;
   }  
+  String translate(String key) {
+    return AppLocalizations.of(this)?.translate(key).toString() ?? key;
+  }
+
   void pushNamed(String routeName, {Object? arguments}) {
     Navigator.of(this).pushNamed(routeName, arguments: arguments);
   }
